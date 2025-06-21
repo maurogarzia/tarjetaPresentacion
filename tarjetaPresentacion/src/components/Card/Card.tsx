@@ -1,0 +1,45 @@
+import style from './Card.module.css'
+import image from '../images/ChatGPT Image 20 jun 2025, 10_52_51.png'
+export const Card = () => {
+    return (
+        <div className={style.containerPrincipal}>
+            <div className={style.containerImage}>
+                
+                <img src={image} alt="" />
+                <p>Desarrollador WEB</p>
+
+                
+            </div>
+            <div className={style.containerData}>
+                <h1>Mauro Garzia</h1>
+                <a className={style.containerItem} href="">
+                    
+                    <div className={style.containerSVG}>
+                        <span className="material-symbols-outlined"> mail </span>
+                    </div>
+                    <p>Email</p>
+                
+                </a>
+                <a href="" className={style.containerItem}>
+                    <div className={style.containerSVG}>
+                        <span className="fab fa-whatsapp" style={{"fontSize" : "25px"}}></span>
+                    </div>
+                    <p>Whatsapp</p>
+                </a>
+
+                <a className={style.containerItem} href="">
+                    <div className={style.containerSVG}>
+                        <span className="material-symbols-outlined">business_center</span>
+                    </div>
+                    <p>Portfolio</p>
+                </a>
+                <a className={style.containerItem} href="https://github.com/maurogarzia">
+                    <div className={style.containerSVG}>
+                        <span className="fab fa-github" style={{"fontSize" : "25px"}} ></span>
+                    </div>
+                    <p>GitHub</p>
+                </a>
+            </div>
+        </div>
+    )
+}
