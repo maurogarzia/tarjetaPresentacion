@@ -14,8 +14,8 @@ export const Screen = () => {
     }
 
     return (
-        <div onClick={handleFlipCard} className={styles.containerPrincipal}>
-            <button className={styles.flipCard}>Voltear</button>
+        <div className={styles.containerPrincipal}>
+            <button onClick={handleFlipCard} className={styles.flipCard}>Voltear</button>
             <AnimatePresence mode="wait">
                 {viewCard ? (
                     <motion.div

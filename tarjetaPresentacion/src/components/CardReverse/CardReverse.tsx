@@ -4,7 +4,7 @@ export const CardReverse = () => {
     return (
         <div className={style.containerPrincipal}>
             <div className={style.containerTechnologies}>
-                <h1>Tecnologias</h1>
+                <h1>Tecnologías</h1>
                 
                 <div className={style.containerItem}>
                     <div className={style.containerSVG}>
@@ -58,7 +58,7 @@ export const CardReverse = () => {
                     </div>
                     <p>Tailwind</p>
                 </div>
-                
+
             </div>
         </div>
     )
