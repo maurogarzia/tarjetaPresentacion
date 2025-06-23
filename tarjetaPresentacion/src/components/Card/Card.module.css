@@ -69,3 +69,21 @@
     color: white;
     font-size: 20px;
 }
+
+@media (max-width: 667px) {
+    .containerPrincipal{
+        width: 350px;
+        height: 270px;
+        font-size: 12px;
+    }
+    .containerPrincipal p{
+        font-size: 15px;
+    }
+    .containerImage img {
+        width: 100px;
+        height: 100px;
+    }
+    .containerImage p {
+        font-size: 15px;
+    }
+}

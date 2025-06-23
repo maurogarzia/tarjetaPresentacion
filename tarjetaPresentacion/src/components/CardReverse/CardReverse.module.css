@@ -44,3 +44,12 @@
 .containerItem p {
     font-size: 20px;
 }
+
+@media (max-width : 667px) {
+    .containerPrincipal{
+        width: 350px;
+        height: 270px;
+        font-size: 10px;
+    }
+
+}
