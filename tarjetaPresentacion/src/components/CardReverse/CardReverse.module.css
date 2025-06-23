@@ -1,26 +1,25 @@
-/* Estilos de la parte derecha */
-
 .containerPrincipal{
     display: flex;
     width: 500px;
     height: 300px;
     justify-content: center;
-    align-items: center;
     background-color: #16CADA;
     box-shadow: 5px 5px 9px rgb(135, 134, 134);
     font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
 }
-.containerData{
-    width: 50%;
-    height: 100%;
+.containerTechnologies{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-    gap: 10px;
+    border-right: 1px solid;
+    width:50%;
 }
-.containerData h1{
-    margin-bottom: 15px;
+.containerFrameworks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
 .containerSVG{
     padding: 10px;
@@ -33,10 +32,6 @@
     justify-content: center;
     align-items: center;
 }
-.containerSVG p {
-    color: inherit;
-    text-decoration: none;
-}
 .containerItem{
     display: flex;
     width: 100%;
@@ -44,28 +39,8 @@
     gap: 10px;
     text-decoration: none;
     color: inherit;
-}
-
-
-/* Estilos de la parte izquierda */
-.containerImage{
-    width: 50%;
-    height: 100%;
-    background-color: #373636;
-    clip-path: polygon(0 0, 80% 0 , 100% 100%,0 100% );
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
 }
-.containerImage img{
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
-}
-.containerImage p{
-    color: white;
+.containerItem p {
     font-size: 20px;
 }
