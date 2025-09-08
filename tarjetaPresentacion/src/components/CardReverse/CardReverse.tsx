@@ -54,7 +54,7 @@ export const CardReverse = () => {
 
                 <div className={style.containerItem}>
                     <div className={style.containerSVG}>
-                        <span className="fab fa-css3-alt" style={{ "fontSize": "25px", "color": "#38B2AC" }}></span>
+                        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"></img>
                     </div>
                     <p>Tailwind</p>
                 </div>
