@@ -1,4 +1,5 @@
 import style from './CardReverse.module.css'
+import css from '../../assets/tailwind-logo.svg'
 
 export const CardReverse = () => {
     return (
@@ -54,7 +55,7 @@ export const CardReverse = () => {
 
                 <div className={style.containerItem}>
                     <div className={style.containerSVG}>
-                        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"></img>
+                        <img src={css} alt="" style={{"width" : "28px", "height" : "28px"}}/>
                     </div>
                     <p>Tailwind</p>
                 </div>

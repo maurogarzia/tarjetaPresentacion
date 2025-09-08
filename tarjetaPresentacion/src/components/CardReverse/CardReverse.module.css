@@ -32,6 +32,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .containerItem{
     display: flex;
     width: 100%;
